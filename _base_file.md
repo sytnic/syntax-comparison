@@ -1,5 +1,16 @@
 # Title
 
+## Python
+
+```py
+
+```
+
+```py
+
+```
+
+
 ## Kotlin
 
 ```kotlin
@@ -11,7 +22,6 @@
 ```
 
 ### 
-
 
 ```kotlin
 
@@ -32,13 +42,6 @@
 ## Javascript
 
 ```js
-
-```
-
-
-## Python
-
-```py
 
 ```
 
