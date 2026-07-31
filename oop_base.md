@@ -17,9 +17,9 @@ fun main() {
   c1.model = "Mustang"
   c1.year = 1969
   
-  println(c1.brand)
-  println(c1.model)
-  println(c1.year)
+  println(c1.brand)    // Ford
+  println(c1.model)    // Mustang
+  println(c1.year)     // 1969  
 }
 ```
 
@@ -43,8 +43,8 @@ fun main() {
   c2.model = "X5"
   c2.year = 1999
   
-  println(c1.brand)
-  println(c2.brand)
+  println(c1.brand)   // Ford
+  println(c2.brand)   // BMW
 }
 ```
 

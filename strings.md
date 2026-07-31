@@ -1,6 +1,14 @@
-# Title
+# Strings
 
 ## Python
+
+Assign String to a Variable
+
+```py
+a = "Hello"
+print(a)
+# Hello
+```
 
 Multiline Strings
 
@@ -19,6 +27,12 @@ Looping Through a String
 ```py
 for x in "banana":
   print(x) 
+# b
+# a
+# n
+# a
+# n
+# a
 ```
 
 String Length
@@ -29,7 +43,7 @@ print(len(a))
 # 13
 ```
 
-Check String
+Check String in the string
 
 ```py
 txt = "The best things in life are free!"
@@ -52,7 +66,7 @@ print("expensive" not in txt)
 # True
 ```
 
-print only if "expensive" is NOT present:
+Print only if "expensive" is NOT present:
 
 ```py
 txt = "The best things in life are free!"
@@ -63,7 +77,7 @@ if "expensive" not in txt:
 
 ### Slicing
 
-Get the characters from position 2 to position 5 (not included).  
+Get the characters from position 2 to position 5 (not included).   
 Note: The first character has index 0.  
 
 ```py
@@ -90,6 +104,8 @@ print(a.lower())
 # hello, world!
 ```
 
+Remove Whitespace  
+
 The strip() method removes any whitespace from the beginning or the end:
 
 ```py
@@ -98,6 +114,8 @@ print(a.strip())
 # Hello, World!
 ```
 
+Replace String
+
 The replace() method replaces a string with another string:
 
 ```py
@@ -105,6 +123,8 @@ a = "Hello, World!"
 print(a.replace("H", "J"))
 # Jello, World!
 ```
+
+Split String
 
 The split() method returns a list where the text between the specified separator becomes the list items.
 
@@ -151,20 +171,11 @@ print(txt)
 ### Escape Characters
 
 ```py
-
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt) 
+# We are the so-called "Vikings" from the north.
 ```
 
-```py
-
-```
-
-```py
-
-```
-
-```py
-
-```
 
 
 ## VB
